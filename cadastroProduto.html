@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CadastroProduto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1 id="titulo">CADASTRE SEU PRODUTO</h1></header>
+    <br><br><br><br>
+
+    <form action="cadastroProduto.php" method="POST">
+        
+        <label for="nome">Nome do Produto</label>
+        <input type="text" name=nomeproduto>
+        <label for="nome">Marca</label>
+        <input type="text" name="marca">
+        <label for="nome">Quantidade</label>
+        <input id="quantidade"  type="text" name="quantidade">
+        <select  required>
+            <option  name="medida" ></option >
+            <option>Kg</option>
+            <option>ml</option>
+            
+        </select>
+        <label for="nome">Valor R$</label>
+        <input type="int" name="valor">
+
+        
+    
+        <button id="botaoform" type="submit" name="submit" >ENVIAR</button >
+    </form>
+
+    <a href="Homepromocao.php"><button class="sair">sair</button></a>
+
+
+</body>
+</html>
